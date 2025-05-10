@@ -2,6 +2,11 @@
   text-align: center;
   background-color: black;
   min-height: 100vh;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
 
 .App-logo {
@@ -22,8 +27,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(12px + 2vmin);
+  color: #ffffff;
 }
 
 .App-link {
