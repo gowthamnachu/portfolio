@@ -14,6 +14,14 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {/* Navigation Menu */}
+        <nav className="nav-menu">
+          <a href="/" className="nav-link">Home</a>
+          <a href="/personal" className="nav-link">Personal</a>
+          <a href="/education" className="nav-link">Education</a>
+          <a href="/Projects" className="nav-link">Projects</a>
+          <a href="/skills" className="nav-link">Skills</a>
+        </nav>
         {/* Background Elements */}
         <div className="background-sphere"></div>
         <div className="background-sphere"></div>
